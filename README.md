@@ -27,7 +27,7 @@ device (in your browser or runtime environment), and **no data is ever sent to a
 In summary, you maintain full control and ownership of your data at all times.
 
 **LICENCE**
-
+---
 This project is open source and available under the **[BSD-3-Clause Licence](LICENCE)**.
 
 In simple terms, this is a very permissive licence that allows you to freely use this code for almost any purpose,

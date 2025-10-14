@@ -126,6 +126,8 @@
 4. **生成更新日志**
    ```bash
    git-changelog --output CHANGELOG.md
+   # 或者使用 uv 运行
+   uv run git-changelog --output CHANGELOG.md
    ```
    此命令会根据您的 git 历史记录创建或更新 `CHANGELOG.md` 文件。
 5. **推送更改**

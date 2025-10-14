@@ -135,6 +135,8 @@ changelog based on [Conventional Commits](https://www.conventionalcommits.org/).
 4. **Generate Changelog**
    ```bash
    git-changelog --output CHANGELOG.md
+   # Or use uv to run it if installed as a dev dependency
+   uv run git-changelog --output CHANGELOG.md
    ```
    This command creates or updates the `CHANGELOG.md` file with all changes based on your git history.
 5. **Push Changes**

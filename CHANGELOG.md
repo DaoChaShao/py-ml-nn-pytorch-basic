@@ -59,13 +59,15 @@
 
 ### Chore
 
+- update CHANGELOG.md for version 0.1.0 release ([9b06408](https://github.com///commit/9b06408975fd10936ccfc6190853b30a63628aa0))
 - rename the 02_tensor_create.py ([60fb080](https://github.com///commit/60fb080121b19e71dada66044de5d15baaaa1040))
-- update CHANGELOG.md for version 0.1.0 release ([39a4202](https://github.com///commit/39a420291747e82cebc50c59d3dbfa1145eb19a8))
 - delete the default main.py ([fe252bc](https://github.com///commit/fe252bcc08cfcfc4a39a88d5345d71d5eaffbe77))
 - update dependencies in uv.lock for improved package management ([f3fdf0b](https://github.com///commit/f3fdf0bb3f64016a22f79d034115d818da085ed7))
 
 ### Docs
 
+- fix link formatting in README.zh-CN.md for git-changelog ([00d891a](https://github.com///commit/00d891aeb8b11d39c7c602bd16da60885348be0d))
+- fix link formatting in README.md for git-changelog ([9e7358a](https://github.com///commit/9e7358a112f70cf50f026dfcf4f6193bbf8cd082))
 - update CHANGELOG.md with recent documentation updates ([eeda460](https://github.com///commit/eeda4607a4bc9578dbc720bd701d932fc6a3d1fd))
 - update section titles in Chinese README for clarity ([916f2e1](https://github.com///commit/916f2e1433ed89483e98fce135187a2b80ecc1be))
 - update CHANGELOG.md with recent documentation changes ([6c57442](https://github.com///commit/6c57442dec625c646efe5cff22abc153aef73ce3))

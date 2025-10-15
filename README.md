@@ -108,7 +108,7 @@ file.
 
 **CHANGELOG**
 ---
-This project uses [`git-changelog`](https://github.com/pawamoy/git-changelog) to automatically generate and maintain a
+This project uses [git-changelog](https://github.com/pawamoy/git-changelog) to automatically generate and maintain a
 changelog based on [Conventional Commits](https://www.conventionalcommits.org/).
 
 1. **Installation**

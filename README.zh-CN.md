@@ -100,7 +100,7 @@
 
 **更新日志**
 ---
-本项目使用 [`git-changelog`](https://github.com/pawamoy/git-changelog)
+本项目使用 [git-changelog](https://github.com/pawamoy/git-changelog)
 基于 [Conventional Commits](https://www.conventionalcommits.org/) 自动生成和维护更新日志。
 
 1. **安装**

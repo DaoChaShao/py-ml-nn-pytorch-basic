@@ -1,10 +1,49 @@
 <!-- insertion marker -->
 <a name="0.1.0"></a>
 
-## [0.1.0](https://github.com///compare/aa7f4a72467972e6e935896872b64128418e5083...0.1.0) (2025-10-15)
+## [0.1.0](https://github.com///compare/aa7f4a72467972e6e935896872b64128418e5083...0.1.0) (2025-10-16)
 
 ### Features
 
+- add 08_stats_09_sort.py for sorting elements of a tensor along specified dimensions ([ef281e0](https://github.com///commit/ef281e012e0f76662afe12a63a01993e66dd359c))
+- add 08_stats_08_unique.py for extracting unique elements from a tensor ([31d26ae](https://github.com///commit/31d26ae00709e687aae2af4ff7250efb5fc54b29))
+- add 08_stats_07_argmax.py for calculating the argmax of tensor elements over specified dimensions ([17b47a2](https://github.com///commit/17b47a22436006d9ce9f5db532b83da0e800ea52))
+- add 08_stats_06_argmin.py for calculating the argmin of tensor elements over specified dimensions ([4fe0ef6](https://github.com///commit/4fe0ef6097b81e6269ab0fc7c07870414a5c7028))
+- add 08_stats_05_min.py for calculating the minimum value of tensor elements over specified dimensions ([aa511ec](https://github.com///commit/aa511ec691610cf4a4fbbb9cd29f837118b8eaf6))
+- add 08_stats_04_max.py for calculating the maximum value of tensor elements over specified dimensions ([f27620e](https://github.com///commit/f27620ea8baaaf8681b792ea7f423e6b26a3a13a))
+- add 08_stats_03_std.py for calculating the standard deviation of tensor elements over specified dimensions ([5fc8d36](https://github.com///commit/5fc8d36a7636492b02ed086fefe5af3d2b41f5dd))
+- add 08_stats_02_mean.py for calculating the mean of tensor elements over specified dimensions ([0a2dc70](https://github.com///commit/0a2dc703d379f404fb9b437f9111547192c21d58))
+- add 08_stats_01_sum.py for calculating the sum of tensor elements over specified dimensions ([1247ed0](https://github.com///commit/1247ed0d3e549c9e038dcb7eb0850422fa6a97a5))
+- add 07_save_memory.py for demonstrating memory-saving operations with tensors ([0d27458](https://github.com///commit/0d27458808726bb666ced78ae295bec258f294b3))
+- add 06_calculate_11_matrix_multiplication.py for performing matrix multiplication of tensors ([cfafbb3](https://github.com///commit/cfafbb3bad00306606c256b91e809879688ff96b))
+- add 06_calculate_10_hadamard_product.py for performing tensor Hadamard product operations ([8482123](https://github.com///commit/84821231b82f301fef4a169dd4e828812a2f288f))
+- add 06_calculate_09_exponential.py for performing tensor exponential operations ([18f1c9d](https://github.com///commit/18f1c9df2bcbe15983e05011644264719562c748))
+- add 06_calculate_08_log.py for performing tensor logarithm operations ([429e874](https://github.com///commit/429e8749a796f84dd58691838c034c93c1a66632))
+- add 06_calculate_07_square.py for performing tensor squaring operations ([4c98f64](https://github.com///commit/4c98f64823769ad1d72409194f478bcad875f4bc))
+- add 06_calculate_06_pow.py for performing tensor power operations ([a6322cf](https://github.com///commit/a6322cf419db410fff181475c0594d3692d3406a))
+- add 06_calculate_05_neg.py for performing tensor negation operations ([5d84117](https://github.com///commit/5d8411749092586d50748c47d511a6def44c05e2))
+- add 06_calculate_04_div.py for performing tensor division operations ([a58efb2](https://github.com///commit/a58efb260ba395c3027524487990a659aee0e13a))
+- add 06_calculate_03_mul.py for performing tensor multiplication operations ([cc5831a](https://github.com///commit/cc5831aa693e4d7434660cfe73350c830a3beab0))
+- add 06_calculate_02_sub.py for performing tensor subtraction operations ([2c3b58d](https://github.com///commit/2c3b58d3dbc577b01c0fb49ebf2e4303a12ec933))
+- add 06_calculate_01_add.py for performing tensor addition operations ([c4b99f1](https://github.com///commit/c4b99f1f6bf662188ab91a5d7eb0fcd51ecefea3))
+- add 05_tensor_change.py for demonstrating tensor to numpy array ID behavior ([ec68f34](https://github.com///commit/ec68f3477aeabc6f6342dbc15a15c340255b0021))
+- add 04_type_change.py for transforming and switching tensor types ([cc09944](https://github.com///commit/cc09944dd22324183e38c5c8f45df287c8b9d9c3))
+- add 02_tensor_16_bernoulli.py for creating tensors using Bernoulli distribution ([0c9c609](https://github.com///commit/0c9c609a2b10c308b024fb7c089922f78e206f8b))
+- add 02_tensor_15_normal.py for creating tensors with normal distribution ([723b01a](https://github.com///commit/723b01a9ca3d03ffe884dfff3882f316dbce4768))
+- add 02_tensor_14_randn.py for creating tensors filled with random integers ([f0c911c](https://github.com///commit/f0c911c3ec537bbfed0c52acc487a28eb875d424))
+- add 02_tensor_13_rand_perm.py for creating a tensor with a random permutation of integers ([b2e8e4d](https://github.com///commit/b2e8e4dfb2700f91773f385b5ac6b457f1fadbb7))
+- add 02_tensor_12_rand.py for creating tensors with random numbers ([1b0cf23](https://github.com///commit/1b0cf230325820c2df66991fad3a999245564582))
+- add 02_tensor_11_log_space.py for creating a tensor using logarithmic space ([c36580c](https://github.com///commit/c36580c485e16a324ad35def4821ee6c2e6a15f1))
+- add 02_tensor_10_linear_space.py for creating a tensor using linear space ([5cb98ba](https://github.com///commit/5cb98ba07d010e01ef44f1e7238def7bf571444d))
+- add 02_tensor_09_arange.py for creating a tensor using a range of numbers ([eae96c3](https://github.com///commit/eae96c3f8d85d62f99fa4f30391c94871c4cb605))
+- add 02_tensor_08_eye.py for creating a 2-D tensor with ones on the diagonal ([9e15861](https://github.com///commit/9e158619063e268ecbefd2b39d06436112cd8715))
+- add 02_tensor_07_full.py for creating tensors filled with a specified value ([491410a](https://github.com///commit/491410ae53372bb91ae439b0c8a1d1b84be2babd))
+- add 02_tensor_06_ones.py for creating tensors filled with ones ([0425a29](https://github.com///commit/0425a29bf312bac5be7a6474e79c5832683e7113))
+- add 02_tensor_05_zeros.py for creating tensors filled with zeros ([0b00515](https://github.com///commit/0b00515ed3690de2185a179c1fdc4e52099584d9))
+- add 02_tensor_04_formal.py for creating a tensor from a numpy array with random dimensions ([5001aa5](https://github.com///commit/5001aa57a6343668fe4b8c4996db3c8d52d3e180))
+- add 02_tensor_03_empty.py for creating an empty tensor with random dimensions ([fffc94c](https://github.com///commit/fffc94c6665af91ddbe0469f1d6b3ad9eb373a78))
+- add 02_tensor_02_numpy.py for creating a tensor from a numpy array ([4fad3d1](https://github.com///commit/4fad3d195f4e476d1089a5be28ec6c5cf51d4bd2))
+- add 02_tensor_01_scalar.py for creating a tensor from a random number ([b78da29](https://github.com///commit/b78da29da25ec03679ae2eaad2d54d2d40823f0d))
 - update dependencies in pyproject.toml to include numpy and torch ([7b27a6a](https://github.com///commit/7b27a6a85d3bfcc62f54962ac9757547d6100a39))
 - add numpy and torch dependencies to pyproject.toml ([375791f](https://github.com///commit/375791f2777806c198a5118c1d8dce0e72e8fe09))
 - add PT.py with device_checker function for checking available hardware ([0a9fba4](https://github.com///commit/0a9fba462cfdc01c7537b5b4e099fc104895e79a))
@@ -20,6 +59,8 @@
 
 ### Chore
 
+- rename the 02_tensor_create.py ([60fb080](https://github.com///commit/60fb080121b19e71dada66044de5d15baaaa1040))
+- update CHANGELOG.md for version 0.1.0 release ([39a4202](https://github.com///commit/39a420291747e82cebc50c59d3dbfa1145eb19a8))
 - delete the default main.py ([fe252bc](https://github.com///commit/fe252bcc08cfcfc4a39a88d5345d71d5eaffbe77))
 - update dependencies in uv.lock for improved package management ([f3fdf0b](https://github.com///commit/f3fdf0bb3f64016a22f79d034115d818da085ed7))
 

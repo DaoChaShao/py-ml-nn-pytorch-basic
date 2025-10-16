@@ -5,6 +5,13 @@
 
 ### Features
 
+- add pyside6 and its dependencies to uv.lock ([7b42ace](https://github.com///commit/7b42acea502bc957facb86210fec504f88d1b125))
+- add pyside6 as a dependency in pyproject.toml ([0f3ae73](https://github.com///commit/0f3ae738b9ccb198ef2b17ca3b36f164498c5f59))
+- enhance device_checker to return available devices as a dictionary with filtering options ([c3abfbd](https://github.com///commit/c3abfbd12341d8da5676968b0dca4a51e5ab42fd))
+- add 18_linear_regression.py to implement a linear regression model using PyTorch with multiprocessing support ([f4afa04](https://github.com///commit/f4afa043ed7610a23f812e7e8f62aba412833a50))
+- add 17_auto_grad_03_detach.py to demonstrate the use of detach in PyTorch tensors ([eff0344](https://github.com///commit/eff034428bbd621b294a0c4cd0805835114222f1))
+- add 17_auto_grad_02_zero.py to demonstrate the effects of zeroing gradients in PyTorch ([11f15b4](https://github.com///commit/11f15b4a771700d476ba495a8cef34814c3f7d8f))
+- add 17_auto_grad_01.py for demonstrating tensor operations and backpropagation in PyTorch ([c2a605e](https://github.com///commit/c2a605e4b1f7e32346db2a363c963f4593b5f75e))
 - add helper functions for timing, beautifying, and setting random seeds ([08e4cff](https://github.com///commit/08e4cff122088a218d6fbe666e7c518efbd5cb1d))
 - add 15_chunk.py for demonstrating tensor chunking by row and column in PyTorch ([d31b802](https://github.com///commit/d31b802ccc55ea795917141715828ebb67931c12))
 - add 14_stack.py for demonstrating tensor stacking in PyTorch ([a87684b](https://github.com///commit/a87684bdd4ef4c10229cef65a717972c23033f7b))
@@ -70,6 +77,7 @@
 
 ### Chore
 
+- update CHANGELOG.md with recent feature additions and refactoring details ([76b841b](https://github.com///commit/76b841b4ff7fcdce1bd64c179b33ddd6eeda24b8))
 - update CHANGELOG.md for version 0.1.0 release ([560d1b0](https://github.com///commit/560d1b0a81591e818949969a7225cfd6eadc8dc4))
 - rename the 02_tensor_create.py ([60fb080](https://github.com///commit/60fb080121b19e71dada66044de5d15baaaa1040))
 - delete the default main.py ([fe252bc](https://github.com///commit/fe252bcc08cfcfc4a39a88d5345d71d5eaffbe77))

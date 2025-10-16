@@ -5,6 +5,17 @@
 
 ### Features
 
+- add helper functions for timing, beautifying, and setting random seeds ([08e4cff](https://github.com///commit/08e4cff122088a218d6fbe666e7c518efbd5cb1d))
+- add 15_chunk.py for demonstrating tensor chunking by row and column in PyTorch ([d31b802](https://github.com///commit/d31b802ccc55ea795917141715828ebb67931c12))
+- add 14_stack.py for demonstrating tensor stacking in PyTorch ([a87684b](https://github.com///commit/a87684bdd4ef4c10229cef65a717972c23033f7b))
+- add 13_cat.py for demonstrating tensor concatenation by row and column in PyTorch ([18011a5](https://github.com///commit/18011a5a3d305cb539cda5999b3047c61f33641f))
+- add 12_squeeze.py for demonstrating tensor squeezing and unsqueezing in PyTorch ([5b76394](https://github.com///commit/5b7639480bed9963836755ac46823f0bf3177269))
+- add 11_reshape_02_view.py for demonstrating tensor reshaping using view method in PyTorch ([b8b4d92](https://github.com///commit/b8b4d92dc93ef3524054e31ef9f49eff33016707))
+- add 11_reshape_01_reshape.py for demonstrating tensor reshaping with automatic dimension calculation ([01a3031](https://github.com///commit/01a30318aaf93402552a24f4bc47a03d91b51a81))
+- add 10_dims_exchange.py for demonstrating tensor dimension exchange with PyTorch ([22e1fb9](https://github.com///commit/22e1fb93f042b2f47910c2aecaccdbeb3e45a9f2))
+- add 09_index_03_bool.py for demonstrating boolean indexing with PyTorch tensors ([11d26dd](https://github.com///commit/11d26dd2370b5b2a869b4a6f18995414edd489bc))
+- add 09_index_02.py for demonstrating tensor modification between Numpy arrays and PyTorch tensors ([0754e90](https://github.com///commit/0754e90a558eb99b1236f6904c08d7e4a9028b9a))
+- add 09_index_01.py for demonstrating tensor indexing with random elements ([638fc86](https://github.com///commit/638fc86d072825f1b73ef8bfca45daa72e077371))
 - add 08_stats_09_sort.py for sorting elements of a tensor along specified dimensions ([ef281e0](https://github.com///commit/ef281e012e0f76662afe12a63a01993e66dd359c))
 - add 08_stats_08_unique.py for extracting unique elements from a tensor ([31d26ae](https://github.com///commit/31d26ae00709e687aae2af4ff7250efb5fc54b29))
 - add 08_stats_07_argmax.py for calculating the argmax of tensor elements over specified dimensions ([17b47a2](https://github.com///commit/17b47a22436006d9ce9f5db532b83da0e800ea52))
@@ -59,7 +70,7 @@
 
 ### Chore
 
-- update CHANGELOG.md for version 0.1.0 release ([9b06408](https://github.com///commit/9b06408975fd10936ccfc6190853b30a63628aa0))
+- update CHANGELOG.md for version 0.1.0 release ([560d1b0](https://github.com///commit/560d1b0a81591e818949969a7225cfd6eadc8dc4))
 - rename the 02_tensor_create.py ([60fb080](https://github.com///commit/60fb080121b19e71dada66044de5d15baaaa1040))
 - delete the default main.py ([fe252bc](https://github.com///commit/fe252bcc08cfcfc4a39a88d5345d71d5eaffbe77))
 - update dependencies in uv.lock for improved package management ([f3fdf0b](https://github.com///commit/f3fdf0bb3f64016a22f79d034115d818da085ed7))
@@ -81,5 +92,6 @@
 
 ### Code Refactoring
 
+- rename output.py to highlighter.py and convert class methods to standalone functions ([8bc1026](https://github.com///commit/8bc10260fa64117a50ce10e8dce0c69adf834caf))
 - refactor dependency groups in pyproject.toml for better organization ([d41974b](https://github.com///commit/d41974ba0514601c0e5e9eba591682650dc0e16a))
 

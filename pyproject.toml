@@ -8,6 +8,7 @@ dependencies = [
     "numpy>=2.3.3",
     "pyside6>=6.10.0",
     "torch>=2.8.0",
+    "torchsummary>=1.5.1",
 ]
 
 [tool.git-changelog]

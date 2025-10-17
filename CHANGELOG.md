@@ -1,10 +1,31 @@
 <!-- insertion marker -->
 <a name="0.1.0"></a>
 
-## [0.1.0](https://github.com///compare/aa7f4a72467972e6e935896872b64128418e5083...0.1.0) (2025-10-16)
+## [0.1.0](https://github.com///compare/aa7f4a72467972e6e935896872b64128418e5083...0.1.0) (2025-10-18)
 
 ### Features
 
+- add torchsummary package to uv.lock for model summary visualization ([abc3441](https://github.com///commit/abc3441a9c98776fa0243ad955d627ef12aca8b6))
+- add torchsummary dependency to pyproject.toml ([f93763a](https://github.com///commit/f93763a9b86eb97cde7d4b7015465e51ae253275))
+- add 19_DP_05_optimiser_08_lr_adamw.py for a gradient descent optimizer with AdamW learning rate scheduler ([f933516](https://github.com///commit/f933516422941caf2e809043d42c065016a35862))
+- add 19_DP_05_optimiser_07_lr_adam.py for a gradient descent optimizer with Adam learning rate scheduler ([e76cbf2](https://github.com///commit/e76cbf286cfc1b71a0465fc31a978fa4f20d9104))
+- add 19_DP_05_optimiser_06_lr_rmsp.py for a gradient descent optimizer with RMSProp learning rate scheduler ([843384e](https://github.com///commit/843384e6d83304c3b369bf7e7132a664a7e55ee7))
+- add 19_DP_05_optimiser_05_lr_adagrad.py for a gradient descent optimizer with AdaGrad learning rate scheduler ([0469833](https://github.com///commit/0469833b8df495b11c06fad9bbafd32ce84521ff))
+- add 19_DP_05_optimiser_04_lr_exponential.py for a gradient descent optimizer with exponential learning rate scheduler ([c7277f2](https://github.com///commit/c7277f2c5217cafccc49b03badbfa081537a900e))
+- add 19_DP_05_optimiser_03_lr_milestones.py for a gradient descent optimizer with milestones learning rate scheduler ([997343d](https://github.com///commit/997343df29fd5a6721168ee9402e4d488c759753))
+- add 19_DP_05_optimiser_02_lr_step_size.py for a gradient descent optimizer with step learning rate scheduler ([d2359d3](https://github.com///commit/d2359d3894d399cd636cf9773b9bc3fa1ae8e41f))
+- add 19_DP_05_optimiser_01_momentum.py for a gradient descent optimizer implementation with momentum ([7166f2c](https://github.com///commit/7166f2ccd17f4d404ca036a4f87ba8ed885b19a8))
+- add 19_DP_04_loss_02_CCE.py for a cross entropy loss implementation with a custom linear module ([356efaf](https://github.com///commit/356efafb886906e624d86c367f9a1a027e0277c3))
+- add 19_DP_04_loss_01_BCE.py for a binary cross entropy loss implementation with a custom linear module ([fec9326](https://github.com///commit/fec9326c4ed7ad950fd0dc5e5613ab0076410f5c))
+- add 19_DP_03_module_02_sequential.py for a custom sequential linear module with forward pass and parameter initialization ([ab1f9fc](https://github.com///commit/ab1f9fcbf2d42fc8c2fb3f5976e269b1f938b89d))
+- add 19_DP_03_module_01_forward.py for a custom linear module implementation with forward pass and parameter initialization ([682ff1f](https://github.com///commit/682ff1f477b71efd14cba08a5ca249ca3735e00c))
+- add 19_DP_01_params_init_06_kaiming.py for parameter initialization using Kaiming initialization in a PyTorch model ([b73bdb9](https://github.com///commit/b73bdb92c5390abb50c3116b3e5529d8a1f18a24))
+- add 19_DP_01_params_init_05_xavier.py for parameter initialization using Xavier initialization in a PyTorch model ([f42bf53](https://github.com///commit/f42bf53cdac2bd43c425f239464ff764b66d0213))
+- add 19_DP_01_params_init_04_uniform.py for parameter initialization with random uniform distribution in a PyTorch model ([11efdae](https://github.com///commit/11efdae8ef47267e7d8aeaadda186b3b587a7f54))
+- add 19_DP_01_params_init_03_normal.py for parameter initialization with normal distribution in a PyTorch model ([07aee6e](https://github.com///commit/07aee6e9394cad6f484b9bc73121c6fdf40fa091))
+- add 19_DP_01_params_init_02_rank.py for parameter initialization with rank in a PyTorch model ([58f8bbc](https://github.com///commit/58f8bbc3b3fd773332d09b6eed236cdd8a095914))
+- add 19_DP_01_params_init_01_zero.py for parameter initialization in a PyTorch model ([1fa5530](https://github.com///commit/1fa55306849b797e1201293f7aff9acaeba7e684))
+- add 18_linear_regression_pyside6.py for linear regression model with PyTorch and PySide6 GUI ([fd22898](https://github.com///commit/fd22898fa4b64aa55364b55a74020766f8421fa4))
 - add pyside6 and its dependencies to uv.lock ([7b42ace](https://github.com///commit/7b42acea502bc957facb86210fec504f88d1b125))
 - add pyside6 as a dependency in pyproject.toml ([0f3ae73](https://github.com///commit/0f3ae738b9ccb198ef2b17ca3b36f164498c5f59))
 - enhance device_checker to return available devices as a dictionary with filtering options ([c3abfbd](https://github.com///commit/c3abfbd12341d8da5676968b0dca4a51e5ab42fd))
@@ -77,6 +98,7 @@
 
 ### Chore
 
+- update CHANGELOG.md with recent feature additions ([9388bd2](https://github.com///commit/9388bd20e33d00c826418033da1814611ee4f8d3))
 - update CHANGELOG.md with recent feature additions and refactoring details ([76b841b](https://github.com///commit/76b841b4ff7fcdce1bd64c179b33ddd6eeda24b8))
 - update CHANGELOG.md for version 0.1.0 release ([560d1b0](https://github.com///commit/560d1b0a81591e818949969a7225cfd6eadc8dc4))
 - rename the 02_tensor_create.py ([60fb080](https://github.com///commit/60fb080121b19e71dada66044de5d15baaaa1040))
